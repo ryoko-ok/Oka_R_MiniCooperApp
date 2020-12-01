@@ -21,6 +21,10 @@ h2 {
 	color: white;
 }
 
+p {
+	font-weight: 100;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -49,7 +53,7 @@ header {
 	padding: 20px 0 0 0;
 	width: 90%;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	margin-right: auto;
 	margin-left: auto;
 	border: double 3px gray;
@@ -57,11 +61,11 @@ header {
 }
 
 .carmodels { 
-	width: 30%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
 	margin: 1.3rem 0;
 	cursor: pointer;
-
-
 	
 	img {
 		width: 100%;
