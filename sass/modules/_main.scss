@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-color: $main-bg-color;
+    font-size: $main-font-size;
+    font-family: $main-font-face;
+}
+
+h1 {
+	font-size: 1.8rem;
+	color: white;
+}
+
+h2 { 
+	font-size: 1.4rem;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+
+header {
+    img {
+		width: 6rem;
+    }
+}
+
+#maincontainer {
+    text-align: center;
+    display: flex;
+	padding: 20px;
+	flex-direction: column;
+	background-color: black;
+	color: white;
+}
+
+// car section --------------------------
+
+.carmodelCon {
+	margin-top: 20px;
+	padding: 20px 0 0 0;
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	margin-right: auto;
+	margin-left: auto;
+	border: double 3px gray;
+	border-radius: 1rem;
+}
+
+.carmodels { 
+	width: 30%;
+	margin: 1.3rem 0;
+	cursor: pointer;
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	  }
+	
+	img {
+		width: 100%;
+		margin: 0 10px;
+	}
+}
+
+.carinfo {
+	margin: 20px 0;
+	padding: 20px 0;
+	width: 90%;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+
+}
