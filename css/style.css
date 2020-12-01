@@ -1,0 +1,211 @@
+@media (min-width: 768px) {
+  .fav-section {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    width: 600px;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+  header img {
+    width: 7rem;
+  }
+
+  .playlist {
+    width: 20%;
+    flex-direction: row;
+    text-align: left;
+  }
+  .playlist video {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .fav-section {
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  header img {
+    width: 8rem;
+  }
+}
+.hidden {
+  display: none;
+}
+
+* {
+  border: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: pink;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", serif;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: white;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+header img {
+  width: 6rem;
+}
+
+#maincontainer {
+  text-align: center;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+
+.carmodelCon {
+  margin-top: 20px;
+  padding: 20px 0 0 0;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  margin-left: auto;
+  border: double 3px gray;
+  border-radius: 1rem;
+}
+
+.carmodels {
+  width: 30%;
+  margin: 1.3rem 0;
+  cursor: pointer;
+}
+.carmodels ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.carmodels img {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.carinfo {
+  margin: 20px 0;
+  padding: 20px 0;
+  width: 90%;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#videoCon {
+  margin: 0 20px;
+  padding: 0 20px;
+  background-color: black;
+}
+
+video {
+  cursor: pointer;
+}
+
+.mainvideo {
+  width: 100%;
+}
+
+.playlist {
+  width: 33.3%;
+  display: flex;
+}
+.playlist video {
+  width: 100%;
+}
+
+.err {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 2rem;
+  height: 100vh;
+}
+.err h2 {
+  font-size: 40px;
+  padding: 10px;
+}
+.err img {
+  padding-top: 1rem;
+  width: 150px;
+}
+
+.errbutton {
+  padding: 10px 20px;
+  margin: 40px;
+  border: none;
+  font-size: 18px;
+  display: inline-block;
+  border: white 1px solid;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  background: none;
+}
+.errbutton:hover {
+  background-color: gray;
+  border: none;
+  color: white;
+}
+.errbutton a:link, .errbutton a:visited {
+  color: white;
+  text-decoration: none;
+}
+.errbutton a:link:hover, .errbutton a:visited:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

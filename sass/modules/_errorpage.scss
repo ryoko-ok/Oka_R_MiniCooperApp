@@ -1,0 +1,47 @@
+.err {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 2rem;
+    height: 100vh;
+
+    h2 {
+        font-size: 40px;
+        padding: 10px;
+    }
+    
+    img {
+        padding-top: 1rem;
+        width: 150px;
+    }
+}
+
+.errbutton {
+    padding: 10px 20px;
+    margin: 40px;
+    border: none;
+    font-size: 18px;
+    display: inline-block; 
+    border: white 1px solid;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer; 
+    text-decoration: none;
+    background: none;
+
+    &:hover { 
+        background-color: gray;
+        border: none;
+        color: white;
+    }
+
+    a:link, a:visited {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: white;
+        }
+      }
+}

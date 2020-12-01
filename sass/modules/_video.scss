@@ -1,0 +1,22 @@
+#videoCon {
+    margin: 0 20px;
+    padding: 0 20px;
+    background-color: black;
+}
+
+video {
+    cursor: pointer;
+}
+
+.mainvideo {
+    width: 100%;
+}
+
+.playlist {
+    width: 33.3%;
+    display: flex;
+
+    video {
+        width: 100%;
+    }
+}
