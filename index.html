@@ -32,7 +32,7 @@
         
                 <!-- show the model data in 'collection' array -->
                 <div>
-                    <h1 @click="clickHeader">{{ message }}</h1><!-- linked with main.js data -->
+                    <h2 @click="clickHeader">{{ message }}</h2><!-- linked with main.js data -->
                     <p>{{ anotherMessage }}</p>    
                     <ul class="carmodels">
                         <li v-for= "model in newmodels"> <!-- this 'collection' means main.js 'data'-'collection' -->
@@ -40,14 +40,15 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+
                 <!-- show more section -->
-                <div class="carinfo">
-                <section class="bio-data" :class="{'show-bio' : showBioData}">
-                    <h3>{{ currentModelData.name }}</h3>
-                    <p> {{ currentModelData.price }}</p>
-                    <p> {{ currentModelData.info }}</p>
-                </section>
-                </div>
+            <div class="carinfo">
+            <section class="bio-data" :class="{'show-bio' : showBioData}">
+                <h3>{{ currentModelData.name }}</h3>
+                <p> {{ currentModelData.price }}</p>
+                <p> {{ currentModelData.info }}</p>
+            </section>
             </div>
 
         </div><!-- end of maincontainer -->
