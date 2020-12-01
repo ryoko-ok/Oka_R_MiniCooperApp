@@ -22,7 +22,8 @@ h2 {
 }
 
 p {
-	font-weight: 100;
+	font-size: 1rem;
+	line-height: 1.8rem;
 }
 
 ul {
@@ -56,8 +57,12 @@ header {
 	flex-direction: column;
 	margin-right: auto;
 	margin-left: auto;
-	border: double 3px gray;
-	border-radius: 1rem;
+	background-color: black;
+	color: gray;
+
+	h2 {
+		color: gray;
+	}
 }
 
 .carmodels { 

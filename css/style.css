@@ -30,7 +30,8 @@ h2 {
 }
 
 p {
-  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1.8rem;
 }
 
 ul {
@@ -60,8 +61,11 @@ header img {
   flex-direction: column;
   margin-right: auto;
   margin-left: auto;
-  border: double 3px gray;
-  border-radius: 1rem;
+  background-color: black;
+  color: gray;
+}
+.carmodelCon h2 {
+  color: gray;
 }
 
 .carmodels {
@@ -102,6 +106,7 @@ video {
 .playlist {
   width: 33.3%;
   display: flex;
+  padding-bottom: 20px;
 }
 .playlist video {
   width: 100%;
@@ -178,7 +183,9 @@ video {
   }
 
   p {
-    font-size: 1.3em;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    line-height: 2rem;
   }
 
   header img {
@@ -205,10 +212,6 @@ video {
 
   h2 {
     font-size: 2rem;
-  }
-
-  p {
-    font-size: 1.4rem;
   }
 
   header img {
